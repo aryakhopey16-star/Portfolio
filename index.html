@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Arya Khopey — MCA Student and Data Analyst portfolio." />
+  <meta name="author" content="Arya Abhay Khopey" />
+  <title>Arya Khopey | Data Analyst Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#home">AK<span>.</span></a>
+    <nav id="navLinks" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#activities">Activities</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">☾</button>
+      <button id="menuToggle" class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-content reveal">
+        <p class="eyebrow">MCA STUDENT • DATA ANALYST</p>
+        <h1>Hi, I'm <span>Arya Khopey</span>.</h1>
+        <h2>Turning data into meaningful insights.</h2>
+        <p class="hero-text">A curious and continuous learner passionate about data analysis, problem solving, visualization, and using technology to solve real-world problems.</p>
+        <div class="buttons">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn secondary" href="resume/Arya_Khopey_Resume.pdf" download>Download Resume</a>
+        </div>
+        <div class="social-row">
+          <a href="mailto:aryakhopeykmt@gmail.com">Email</a>
+          <span>•</span>
+          <!-- Replace # with Arya's LinkedIn URL -->
+          <a href="#" class="placeholder-link" data-placeholder="linkedin">LinkedIn</a>
+          <span>•</span>
+          <!-- Replace # with Arya's GitHub URL -->
+          <a href="#" class="placeholder-link" data-placeholder="github">GitHub</a>
+        </div>
+      </div>
+
+      <div class="hero-card reveal">
+        <div class="profile-wrap">
+          <!-- Replace images/profile.jpg with Arya's actual profile photo. -->
+          <img class="profile-image" src="images/profile.jpg" alt="Arya Khopey" onerror="this.style.display='none'; document.getElementById('profileFallback').style.display='grid';" />
+          <div id="profileFallback" class="avatar">AK</div>
+        </div>
+        <div class="mini-card"><strong>Data Analytics</strong><span>SQL • Python • Power BI • Tableau</span></div>
+        <div class="floating-stat"><strong>4+</strong><span>Data & BI Tools</span></div>
+      </div>
+    </section>
+
+    <section id="about" class="section narrow reveal">
+      <p class="eyebrow">ABOUT ME</p>
+      <h2>Curious about systems. Passionate about data.</h2>
+      <p>I am from Nagpur, Maharashtra, and currently pursuing a Master of Computer Applications at PES Modern College of Engineering, Pune. I previously completed a Bachelor of Science in Electronics.</p>
+      <p>My curiosity about how data influences decisions motivated me to explore Computer Science and Data Analytics. I enjoy analyzing information, learning new technologies, and collaborating with others to solve meaningful problems.</p>
+      <div class="about-grid">
+        <div><strong>Based in</strong><span>Pune, India</span></div>
+        <div><strong>Focus</strong><span>Data Analytics / BI</span></div>
+        <div><strong>Interests</strong><span>Sports • Music • Data</span></div>
+        <div><strong>Mindset</strong><span>Continuous learning</span></div>
+      </div>
+    </section>
+
+    <section id="skills" class="section reveal">
+      <p class="eyebrow">SKILLS</p>
+      <h2>Tools I work with</h2>
+      <div class="skills-grid">
+        <article class="skill-card"><h3>Data & Analytics</h3><div class="chips"><span>SQL</span><span>Excel</span><span>Power BI</span><span>Tableau</span><span>Statistics</span><span>Data Cleaning</span><span>Data Visualization</span></div></article>
+        <article class="skill-card"><h3>Python & Libraries</h3><div class="chips"><span>Python</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span></div></article>
+        <article class="skill-card"><h3>Programming & Web</h3><div class="chips"><span>C / C++</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+        <article class="skill-card"><h3>Databases & Tools</h3><div class="chips"><span>MySQL</span><span>PostgreSQL</span><span>MongoDB</span><span>Git</span><span>GitHub</span><span>VS Code</span><span>Google Colab</span></div></article>
+      </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <p class="eyebrow">PROJECTS</p>
+      <h2>Projects with a purpose</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-image project-image-one">
+            <!-- Optional: replace with images/project1.jpg if desired. -->
+            <img src="images/project1.jpg" alt="Driver Sleeping Detection System project" onerror="this.style.display='none';" />
+            <span>01</span>
+          </div>
+          <div class="project-body">
+            <h3>Driver Sleeping Detection System</h3>
+            <p>A real-time driver monitoring system designed to detect signs of drowsiness and provide an alarm when the driver appears to fall asleep.</p>
+            <div class="tags"><span>Python</span><span>SQL</span><span>HTML</span><span>CSS</span></div>
+            <div class="project-meta"><span>Team / Academic • 2 members</span><span>Analysis + System Design</span></div>
+            <!-- Replace # with the project's GitHub URL. -->
+            <a class="text-link placeholder-link" href="#" data-placeholder="project1">GitHub →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image project-image-two">
+            <img src="images/project2.jpg" alt="Hybrid Banking Support System project" onerror="this.style.display='none';" />
+            <span>02</span>
+          </div>
+          <div class="project-body">
+            <h3>Hybrid Banking Support System</h3>
+            <p>A banking support system exploring loan-related decision making using both historical and dynamic information.</p>
+            <div class="tags"><span>Python</span><span>Django</span><span>R</span></div>
+            <div class="project-meta"><span>Team / Academic • 4 members</span><span>Research + Analysis</span></div>
+            <!-- Replace # with the project's GitHub URL. -->
+            <a class="text-link placeholder-link" href="#" data-placeholder="project2">GitHub →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="section reveal">
+      <p class="eyebrow">EDUCATION</p>
+      <h2>Academic journey</h2>
+      <div class="timeline">
+        <div class="timeline-item"><div class="dot"></div><div><span class="date">2025 — 2027</span><h3>Master of Computer Applications</h3><p>PES Modern College of Engineering, Pune / SPPU</p><small>3rd Semester • Focus: Computer Applications, Data Science</small></div></div>
+        <div class="timeline-item"><div class="dot"></div><div><span class="date">2021 — 2024</span><h3>Bachelor of Science — Electronics</h3><p>Dr. Ambedkar College / RTMNU</p><small>Specialization: Electronics</small></div></div>
+      </div>
+    </section>
+
+    <section id="activities" class="section reveal">
+      <p class="eyebrow">BEYOND THE CLASSROOM</p>
+      <h2>Activities & interests</h2>
+      <div class="activity-grid">
+        <div class="activity"><span class="activity-icon">🏀</span><h3>Basketball</h3><p>Participated in a basketball tournament.</p></div>
+        <div class="activity"><span class="activity-icon">🏃</span><h3>Endurance Athletics</h3><p>Endurance sports are an important part of my personality and persistence.</p></div>
+        <div class="activity"><span class="activity-icon">🎤</span><h3>Debate</h3><p>Participated in a college debate competition.</p></div>
+        <div class="activity"><span class="activity-icon">🤝</span><h3>Volunteering</h3><p>Worked with Lions Club International / NGO activities.</p></div>
+        <div class="activity"><span class="activity-icon">🏅</span><h3>Sports Club</h3><p>Member/participant in a sports club.</p></div>
+        <div class="activity"><span class="activity-icon">🎵</span><h3>Music</h3><p>One of my personal interests alongside sports and data.</p></div>
+      </div>
+    </section>
+
+    <section class="section goals reveal">
+      <div>
+        <p class="eyebrow">CAREER GOAL</p>
+        <h2>Building a career around data-driven problem solving.</h2>
+        <p>My short-term goal is to begin my professional career in a Data Analyst role, keep developing my analytical skills, and contribute to meaningful work using data.</p>
+      </div>
+      <div class="goal-list"><span>Data Analyst</span><span>Business Analyst</span><span>BI Analyst</span><span>Data Scientist</span></div>
+    </section>
+
+    <section id="contact" class="section contact reveal">
+      <div>
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2>Let's connect.</h2>
+        <p>Interested in data, analytics, technology, or a meaningful project? Feel free to reach out.</p>
+        <a class="email" href="mailto:aryakhopeykmt@gmail.com">aryakhopeykmt@gmail.com</a>
+      </div>
+      <div class="contact-card">
+        <a href="mailto:aryakhopeykmt@gmail.com">Email Me ↗</a>
+        <!-- Replace # with Arya's LinkedIn URL -->
+        <a href="#" class="placeholder-link" data-placeholder="linkedin">LinkedIn ↗</a>
+        <!-- Replace # with Arya's GitHub URL -->
+        <a href="#" class="placeholder-link" data-placeholder="github">GitHub ↗</a>
+        <a href="resume/Arya_Khopey_Resume.pdf" download>Download Resume ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Arya Khopey</span>
+    <span>Designed & built with purpose.</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
